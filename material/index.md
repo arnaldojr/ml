@@ -17,7 +17,7 @@ Ao final da disciplina o aluno será capaz de:
 | AULA | Segunda-feira (4SIS) | quarta-feira (4SIA) | CONTEÚDO                                                | LABORATÓRIO         | OBSERVAÇÃO                            |
 |:----:|:--------------------:|:-------------------:|---------------------------------------------------------|---------------------|---------------------------------------|
 |    1 |         01/08        |        03/08        | Intro IA/ML, Aprendizado Supervisionado - Classificação | lab1, lab2          |                                       |
-|    2 |         08/08        |        10/08        | Aprendizado Supervisionado - Regressão                  | lab3, lab4          | data de explicação da NAC1 - em video |
+|    2 |         08/08        |        10/08        | Aprendizado Supervisionado - Regressão                  | lab3, lab4          |         explicação da NAC de ML       |
 |    3 |         15/08        |        17/08        | Dicas de pre-processamento de dados                     | lab5, lab6, lab7    |                                       |
 |    4 |         22/08        |        24/08        | Aprendizado Não Supervisionado                          | lab8, lab9, lab10   |                                       |
 |    5 |         29/08        |        31/08        | Redes Neurais - Perceptron, MLP                         | lab11, lab12        |                                       |
@@ -28,11 +28,12 @@ Ao final da disciplina o aluno será capaz de:
 
 Não há pré-requisitos, os temas abordados são explicados durantes os laboratórios.  
 
-## Como será a dinamica das aulas?
+## Dinâmica das aulas:
 
 As aulas estão divididas em pequenos laboratórios, cada lab. possui os seus objetivos especificos. Durante as aulas são abordados teorias e práticas através de desafios.
 
-![Screenshot](/img/teoria-pratica.png)
+![Screenshot](/material/img/teoria-pratica.png)
+
 
 ## O que preciso instalar para acompanhar esse curso?
 
