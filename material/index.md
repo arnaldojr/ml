@@ -32,8 +32,7 @@ Não há pré-requisitos, os temas abordados são explicados durantes os laborat
 
 As aulas estão divididas em pequenos laboratórios, cada lab. possui os seus objetivos especificos. Durante as aulas são abordados teorias e práticas através de desafios.
 
-![Screenshot](/material/img/teoria-pratica.png)
-
+![](imgs/teoria-pratica.png)
 
 ## O que preciso instalar para acompanhar esse curso?
 
