@@ -87,6 +87,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Agenda: planejamento/agenda.md
   - Introdução: aulas/lab01/IntroIA.pptx
   - Laboratórios: 
     - Lab01 - Dataframe: aulas/lab01/dataframe.ipynb
