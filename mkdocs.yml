@@ -1,0 +1,110 @@
+site_name: ML
+site_author: Arnaldo Viana 
+
+
+extra:
+    materia: Dados e ML
+    professor: Arnaldo Viana
+    ano: 2022
+
+theme:
+  feature:
+    tabs: true
+  name: active-handout
+  #custom_dir: overrides
+
+docs_dir: material
+site_dir: docs
+
+repo_url: https://github.com/arnaldojr/ml/
+repo_name: "ML"
+site_url: https://arnaldojr.github.io/ml/
+
+
+    
+# theme: material
+
+
+# Extensions / plugins
+
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/gh/insper-education/active-handout-plugins-js@main/package/plugin-bundle.js
+    #  - http://localhost:9000/plugin-bundle.js
+  - js/termynal.js
+  - js/custom.js
+
+# Extensions / plugins
+plugins:
+#  - git-revision-date-localized
+  - search
+  - mkdocs-jupyter:
+      execute: False
+
+extra_css:
+#  - css/termynal.css
+  - https://cdn.jsdelivr.net/gh/insper-education/active-handout-css@main/devlife.css
+
+
+markdown_extensions:
+  - markdown.extensions.tables
+  - tables
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: code
+      check_paths: true
+
+
+nav:
+  - Home: index.md
+  - Introdução: aulas/lab01/IntroIA.pptx
+  - Laboratórios: 
+    - Lab01 - Dataframe: aulas/lab01/dataframe.ipynb
+    - Lab02 - Aprendizado Supervisionado - Classificação: aulas/lab02/classificador-knn.ipynb
+    - Lab03 - Aprendizado Supervisionado - Regressão: aulas/lab03/regressao.ipynb
+    - Lab04 - Aprendizado Supervisionado - Atividade classificação/regressão: aulas/lab04/atividade-class-reg.ipynb
+    - Lab05 - Dicas de pre processamento: aulas/lab05/dicasDePreprocessamento.ipynb    
+    - Lab06 - Validação cruzada: aulas/lab06/aula3.ipynb
+    - Lab07 - Aprendizado Supervisionado - Atividade Regressão c/kfold: aulas/lab07/aula4.ipynb
+    - Lab08 - Aprendizado não supervisionado - KMeans, DBScan e GaussianMixture: aulas/lab08/aula5.ipynb
+    - Lab09 - Aprendizado não supervisionado - DBScan, agrupamento hierarquico, dendrograma: aulas/lab09/aula6.ipynb
+    - Lab10 - Aprendizado não supervisionado - Atividade de clusterização: aulas/lab10/aula7.ipynb
+#    - Lab11 - Naive Bayes: aulas/lab11/aula8.ipynb
+    - Lab11 - Redes Neurais - Percepton : aulas/lab12/aula9.ipynb
+    - Lab12 - Redes Neurais - MLP: aulas/lab13/aula10.ipynb
+    - Lab13 - Redes Neurais - CNN: aulas/lab15/aula12-1/aula12.ipynb
+    - Lab14 - Redes Neurais - Transfer learning: aulas/lab15/aula12-2/aula13.ipynb
+    - Lab15 - Redes Neurais - Atividade Transfer learning: aulas/lab15/aula12-2/BonusCNN-imagensReais.ipynb
+#    - Lab16 - Redes Neurais - RNN: 
+
+
