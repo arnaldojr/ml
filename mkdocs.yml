@@ -88,6 +88,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Agenda: planejamento/agenda.md
+  - NAC: aulas/NAC/index.md  
   - Introdução: aulas/intro/index.md
   - Laboratórios: 
     - Lab01 - Dataframe: aulas/lab01/dataframe.ipynb
