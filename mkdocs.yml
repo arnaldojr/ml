@@ -11,7 +11,7 @@ theme:
   feature:
     tabs: true
   name: active-handout
-  #custom_dir: overrides
+  custom_dir: overrides
 
 docs_dir: material
 site_dir: docs
@@ -45,6 +45,8 @@ plugins:
   - git-revision-date-localized
   - search
   - mkdocs-jupyter:
+      use_directory_urls: false
+      include_source: True
       execute: False
 
 extra_css:
